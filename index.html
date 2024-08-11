@@ -1,16 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hola Mundo</title>
     <style>
-        body{
-            background-color: red;
+        body {
+            font-family: Arial, sans-serif;
+            background-image: linear-gradient(to bottom right, #4CAF50, #2196F3);
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        
+        .card {
+            background-color: #6e5858;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        h1 {
+            font-size: 36px;
+            color:  #2196F3;
+            margin-bottom: 10px;
+        }
+        
+        h2 {
+            font-size: 24px;
+            color: #2196F3;
+            margin-bottom: 10px;
+        }
+        
+        h3 {
+            font-size: 18px;
+            color:  #2196F3;
+            margin-bottom: 0;
         }
     </style>
 </head>
 <body>
-    <h1>Carlos Daniel De León</h1>
+    <div class="container">
+        <div class="card">
+            <h1>
+                Hola Profesor
+            </h1>
+            <h2>
+                Juan Carlos Ozuna Nadal
+            </h2>
+            <h3>
+                2022_0084
+            </h3>
+        </div>
+    </div>
 </body>
 </html>
